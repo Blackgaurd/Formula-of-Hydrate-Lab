@@ -1,0 +1,321 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage[version=4]{mhchem}
+\usepackage{siunitx}
+\usepackage[makeroom]{cancel}
+
+% \graphicspath{ {./images/} }
+
+\geometry{margin=1in} % margins
+\renewcommand{\baselinestretch}{1.5} % line spacing
+\newcommand{\fline}{\par\noindent\rule{\textwidth}{0.1pt}} % horizontal line (wide)
+
+\title{Formula of Unknown Hydrate Lab Report}
+\author{Bryan Deng}
+
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\section{Pre-lab}
+
+\subsection{Purpose}
+
+To determine the formula of an unknown hydrate.
+
+\subsection{Procedure Summary}
+
+\begin{enumerate}
+    \item Prepare a table to record all determined masses.
+    \item Heat a crucible and cover for 3 mins, then let it cool for 5 mins. Measure its mass.
+    \item Put 4g of the unknown hydrate in the crucible and determine the total mass.
+    \item Heat crucible for 5 mins, then increase heat and heat for another 5 mins.
+    \item Let the crucible cool and determine its mass.
+    \item Reheat the crucible for 3 mins, let cool, and determine its mass.
+\end{enumerate}
+
+\section{Data Tables}
+
+\subsection{Collected Data}
+
+\begin{center}
+    \captionof{table}{collected experimental values}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Variable}                                         & \textbf{Value}               \\
+        \hline \hline
+        Initial mass of crucible and cover                        & $24.87\si{g} \pm 0.01\si{g}$ \\
+        \hline
+        Mass of crucible, cover, and hydrate before heating       & $28.95\si{g} \pm 0.01\si{g}$ \\
+        \hline
+        Mass of crucible, cover, and hydrate after heating        & $26.96\si{g} \pm 0.01\si{g}$ \\
+        \hline
+        Mass of crucible, cover, and hydrate after second heating & $26.93\si{g} \pm 0.01\si{g}$ \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\subsection{Given Data}
+
+\begin{center}
+    \captionof{table}{molar masses of each potential salt}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Hydrate} & \textbf{Salt} & \textbf{Molar mass of salt} \\
+        \hline \hline
+        \ce{BaCl2* 2H2O} & \ce{BaCl2}    & $208.23\si{\gram\per\mol}$  \\
+        \hline
+        \ce{CaSO4* 2H2O} & \ce{CaSO4}    & $136.14\si{\gram\per\mol}$  \\
+        \hline
+        \ce{MgSO4* 7H2O} & \ce{MgSO4}    & $120.37\si{\gram\per\mol}$  \\
+        \hline
+        \ce{CuSO4* 5H2O} & \ce{CuSO4}    & $159.61\si{\gram\per\mol}$  \\
+        \hline
+        \ce{NiCl2* 6H2O} & \ce{NiCl2}    & $129.60\si{\gram\per\mol}$  \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\subsection{Calculated Data}
+
+\begin{center}
+    \captionof{table}{Calculated values for unknown hydrate}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Variable}                      & \textbf{Value}              \\
+        \hline \hline
+        Mass of hydrate before heating         & $4.08\si{g} \pm 0.02\si{g}$ \\
+        \hline
+        Mass of hydrate after (second) heating & $2.06\si{g} \pm 0.02\si{g}$ \\
+        \hline
+        Mass of water                          & $2.02\si{g} \pm 0.04\si{g}$ \\
+        \hline
+        Percentage water                       & $(49.51 \pm 1.22)\%$        \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}
+    \captionof{table}{percentage water of each potential hydrate}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Hydrate} & $\%\ce{H2O}$ \\
+        \hline \hline
+        \ce{BaCl2* 2H2O} & $14.75\%$    \\
+        \hline
+        \ce{CaSO4* 2H2O} & $20.93\%$    \\
+        \hline
+        \ce{MgSO4* 7H2O} & $51.20\%$    \\
+        \hline
+        \ce{CuSO4* 5H2O} & $36.08\%$    \\
+        \hline
+        \ce{NiCl2* 6H2O} & $45.48\%$    \\
+        \hline
+    \end{tabular}
+\end{center}
+
+\section{Qualitative Observations}
+
+\subsection{Before Heating}
+
+\begin{itemize}
+    \item hydrate is a white crystal substance
+    \item grains of hydrate are larger than those of table salt
+    \item individual grains are translucent
+\end{itemize}
+
+\subsection{During First Round of Heating}
+
+\begin{itemize}
+    \item sizzling noise is apparent when heating
+    \item hydrate appears to solidify from the center outwards
+    \item sizzling is more faint after 5 minutes of heating
+    \item during second 5 minutes of heating:
+          \begin{itemize}
+              \item there is minimal sizzling
+              \item substance is less translucent and more opaque
+              \item crystals are much smaller
+          \end{itemize}
+    \item after heating, crystals appear to have merged into one big solid structure
+\end{itemize}
+
+\subsection{During Second Round of Heating}
+
+\begin{itemize}
+    \item not much difference in appearance during second heating
+    \item after second heating, the substance has completely merged into one big solid
+\end{itemize}
+
+\section{Calculations}
+
+\subsection{Mass of Hydrate Before Heating}
+
+\begin{align*}
+    m_i & = m_{\text{hydrate + crucible}} - m_{\text{crucible}}         \\
+        & = (28.95\si{g} \pm 0.01\si{g}) - (24.87\si{g} \pm 0.01\si{g}) \\
+        & = (28.95\si{g} - 24.87\si{g}) \pm (0.01\si{g} + 0.01\si{g})   \\
+    m_i & = 4.08\si{g} \pm 0.02\si{g}
+\end{align*}
+
+\subsection{Mass of Hydrate After (Second) Heating}
+
+\begin{align*}
+    m_f & = m_{\text{hydrate + crucible}} - m_{\text{crucible}}       \\
+        & = (26.93g \pm 0.01\si{g}) - (24.87 \pm 0.01\si{g})          \\
+        & = (26.93\si{g} - 24.97\si{g}) \pm (0.01\si{g} + 0.01\si{g}) \\
+    m_f & = 2.06\si{g} \pm 0.02\si{g}
+\end{align*}
+
+\subsection{Mass of Water in Hydrate}
+
+\begin{align*}
+    m_{\ce{H2O}} & = m_i - m_f                                                 \\
+                 & = (4.08\si{g} \pm 0.02\si{g}) - (2.06\si{g} \pm 0.02\si{g}) \\
+                 & = (4.08\si{g} - 2.06\si{g}) \pm (0.02\si{g} + 0.02\si{g})   \\
+    m_{\ce{H2O}} & = 2.02\si{g} \pm 0.04\si{g}
+\end{align*}
+
+\subsection{Experimental Percentage Water}
+
+\begin{align*}
+    \%\ce{H2O} & = \frac{m_{\ce{H2O}}}{m_i} \times 100\%                                                                                                                   \\
+               & = \frac{2.02\si{g} \pm 0.04\si{g}}{4.08\si{g} \pm 0.02\si{g}} \times 100\%                                                                                \\
+               & = \left( \frac{2.02\si{g}}{4.08\si{g}} \pm \left( \frac{0.04\si{g}}{2.02\si{g}} + \frac{0.02\si{g}}{4.08\si{g}} \right) \times 100\% \right) \times 100\% \\
+               & = (0.4951 \pm 2.47\%) \times 100\%                                                                                                                        \\
+               & = (0.4951 \pm 0.0122) \times 100\%                                                                                                                        \\
+    \%\ce{H2O} & = (49.51 \pm 1.22)\%
+\end{align*}
+
+\subsection{Theoretical Percentage Water in Each Potential Hydrate}
+
+\subsubsection{\ce{BaCl2* 2H2O}}
+
+\begin{align*}
+    M_{\ce{2H2O}}              & = 2 \cdot 18.02\si{\gram\per\mol}                    \\
+    M_{\ce{2H2O}}              & = 36.04\si{\gram\per\mol}                            \\
+    M_{\ce{BaCl2* 2H2O}} = M_T & = M_{\ce{BaCl2}} + M_{\ce{2H2O}}                     \\
+                               & = 208.23\si{\gram\per\mol} + 36.04\si{\gram\per\mol} \\
+    M_T                        & = 244.27\si{\gram\per\mol}
+\end{align*}
+
+\begin{align*}
+    \%\ce{H2O} & = \frac{M_{\ce{2H2O}}}{M_T} \times 100\%                                \\
+               & = \frac{36.04\si{\gram\per\mol}}{244.27\si{\gram\per\mol}} \times 100\% \\
+    \%\ce{H2O} & = 14.75\%
+\end{align*}
+
+\subsubsection{\ce{CaSO4* 2H2O}}
+
+\begin{align*}
+    M_{\ce{2H2O}}              & = 2 \cdot 18.02\si{\gram\per\mol}                    \\
+    M_{\ce{2H2O}}              & = 36.04\si{\gram\per\mol}                            \\
+    M_{\ce{CaSO4* 2H2O}} = M_T & = M_{\ce{CaSO4}} + M_{\ce{2H2O}}                     \\
+                               & = 136.14\si{\gram\per\mol} + 36.04\si{\gram\per\mol} \\
+    M_T                        & = 172.18\si{\gram\per\mol}
+\end{align*}
+
+\begin{align*}
+    \%\ce{H2O} & = \frac{M_{\ce{2H2O}}}{M_T} \times 100\%                                \\
+               & = \frac{36.04\si{\gram\per\mol}}{172.18\si{\gram\per\mol}} \times 100\% \\
+    \%\ce{H2O} & = 20.93\%
+\end{align*}
+
+\subsubsection{\ce{MgSO4* 7H2O}}
+
+\begin{align*}
+    M_{\ce{7H2O}}              & = 7 \cdot 18.02\si{\gram\per\mol}                     \\
+    M_{\ce{7H2O}}              & = 126.28\si{\gram\per\mol}                            \\
+    M_{\ce{MgSO4* 7H2O}} = M_T & = M_{\ce{MgSO4}} + M_{\ce{7H2O}}                      \\
+                               & = 120.37\si{\gram\per\mol} + 126.28\si{\gram\per\mol} \\
+    M_T                        & = 246.65\si{\gram\per\mol}
+\end{align*}
+
+\begin{align*}
+    \%\ce{H2O} & = \frac{M_{\ce{7H2O}}}{M_T} \times 100\%                                 \\
+               & = \frac{126.28\si{\gram\per\mol}}{246.65\si{\gram\per\mol}} \times 100\% \\
+    \%\ce{H2O} & = 51.20\%
+\end{align*}
+
+\subsubsection{\ce{CuSO4* 5H2O}}
+
+\begin{align*}
+    M_{\ce{5H2O}}              & = 5 \cdot 18.02\si{\gram\per\mol}                    \\
+    M_{\ce{5H2O}}              & = 90.10\si{\gram\per\mol}                            \\
+    M_{\ce{CuSO4* 5H2O}} = M_T & = M_{\ce{CuSO4}} + M_{\ce{5H2O}}                     \\
+                               & = 159.61\si{\gram\per\mol} + 90.10\si{\gram\per\mol} \\
+    M_T                        & = 249.71\si{\gram\per\mol}
+\end{align*}
+
+\begin{align*}
+    \%\ce{H2O} & = \frac{M_{\ce{5H2O}}}{M_T} \times 100\%                                \\
+               & = \frac{90.10\si{\gram\per\mol}}{249.71\si{\gram\per\mol}} \times 100\% \\
+    \%\ce{H2O} & = 36.08\%
+\end{align*}
+
+\subsubsection{\ce{NiCl2* 6H2O}}
+
+\begin{align*}
+    M_{\ce{6H2O}}              & = 6 \cdot 18.02\si{\gram\per\mol}                     \\
+    M_{\ce{6H2O}}              & = 108.12\si{\gram\per\mol}                            \\
+    M_{\ce{NiCl2* 6H2O}} = M_T & = M_{\ce{NiCl2}} + M_{\ce{6H2O}}                      \\
+                               & = 129.60\si{\gram\per\mol} + 108.12\si{\gram\per\mol} \\
+    M_T                        & = 237.72\si{\gram\per\mol}
+\end{align*}
+
+\begin{align*}
+    \%\ce{H2O} & = \frac{M_{\ce{6H2O}}}{M_T} \times 100\%                                 \\
+               & = \frac{108.12\si{\gram\per\mol}}{237.72\si{\gram\per\mol}} \times 100\% \\
+    \%\ce{H2O} & = 45.48\%
+\end{align*}
+
+\subsection{Finding the Unknown Hydrate}
+
+By comparing the percentage of water obtained experimental with each of the theoretical percentages of water for the potential hydrates, it can be proven that the unknown hydrate is most likely $\ce{MgSO4* 7H2O}$.
+$49.51\%$ is the closest to $51.20\%$.
+
+\subsection{Percentage Error}
+
+The following calculations are based on the conclusion that the unknown hydrate is $\ce{MgSO4* 7H2O}$.
+
+With $m_i = 4.08\si{g} \pm 0.02\si{g}$ of the hydrate, theoretically its mass after heating should be:
+
+\begin{align*}
+    m_{\text{theoretical}} & = m_i \cdot \%\ce{MgSO4}                            \\
+                           & = m_i \cdot (100\% - \%\ce{H2O})                    \\
+                           & = (4.08\si{g} \pm 0.02\si{g}) \cdot (100 - 51.20)\% \\
+                           & = (4.08\si{g} \pm 0.02\si{g}) \cdot (48.80)\%       \\
+    m_{\text{theoretical}} & = 1.99\si{g} \pm 0.01\si{g}
+\end{align*}
+
+\begin{align*}
+    \%\text{error} & = \frac{|m_{\text{theoretical}} - m_{\text{experimental}}|}{m_{\text{theoretical}}} \times 100\%                                                                       \\[8pt]
+                   & = \frac{|m_{\text{theoretical}} - m_f|}{m_{\text{theoretical}}} \times 100\%                                                                                           \\[8pt]
+                   & = \frac{\left| (2.06\si{g} \pm 0.02\si{g}) - (1.99\si{g} \pm 0.01\si{g}) \right|}{1.99\si{g} \pm 0.01\si{g}} \times 100\%                                              \\[8pt]
+                   & = \frac{(2.06\si{g} - 1.99\si{g}) \pm (0.01\si{g} + 0.02\si{g})}{1.99\si{g} \pm 0.01\si{g}} \times 100\%                                                               \\[8pt]
+                   & = \frac{0.07\si{g} \pm 0.03\si{g}}{1.99\si{g} \pm 0.01\si{g}} \times 100\%                                                                                             \\[8pt]
+                   & = \left( \left( \frac{0.07\si{g}}{1.99\si{g}} \right) \pm \left( \frac{0.03\si{g}}{0.07\si{g}} + \frac{0.01\si{g}}{1.99\si{g}} \right) times100\% \right) \times 100\% \\[8pt]
+                   & = (0.0352 \pm 43.36\%) \times 100\%                                                                                                                                    \\
+    \%\text{error} & = (3.52 \pm 1.53)\%
+\end{align*}
+
+\section{Post-lab Questions}
+
+\begin{enumerate}
+    \item[9.] \textbf{What is the purpose of the second heating and cooling in part E?}
+
+        The second (and any further) round's purpose is to get rid of any remaining water in the hydrate. This causes the data to converge towards the theoretical value of the experiment.
+
+    \item[10.] \textbf{If your unknown hydrate had contained some crystals that already lost their water of hydration, how would the results of the experiment have been affected?}
+
+        The calculated amount of water lost experimentally would have been greater if there was no water loss beforehand.
+\end{enumerate}
+
+\end{document}
